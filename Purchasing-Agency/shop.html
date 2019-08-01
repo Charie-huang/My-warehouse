@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .jiedao img{
+        width: 375px;
+        height: 1600px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .jiesuan img{
+        height: 55px;
+        width: 375px;
+        position: fixed;
+        bottom: 100px;
+        left: 0;
+    }
+    #back{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        top: 10px;
+        left: 17px;
+        cursor: pointer;
+        background-image: url(back.png);
+        background-size: 100%
+    }
+    .bottom input[type="p"]{
+    width: 50px;
+    text-indent: 5px;
+    color: rgb(75, 71, 71);
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 25%;
+    
+}
+.bottom{
+    position: fixed;
+    bottom:14px;
+    left:20px;
+    
+}
+.bottom input[type="j"]{
+    width: 50px;
+    text-indent: 5px;
+    color: rgb(75, 71, 71);
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 25%;
+    position: relative;
+    left:20px;
+
+}
+.bottom input[type="s"]{
+    width: 75px;
+    text-indent: 7.5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    color: rgb(75, 71, 71);
+    border-radius: 25%;
+    position: relative;
+    left:38px;
+}
+.bottom input[type="m"]{
+    width: 100px;
+    text-indent: 10px;
+    color: rgb(75, 71, 71);
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 25%;
+    position: relative;
+    left:48px;
+}
+.head input[type="t"]{
+    width: 126px;
+    color: rgb(187, 20, 20);
+    border: 1px solid rgb(189, 16, 16);
+    position: relative;
+    left:120px;
+    top:15px
+}
+.picture{
+    width: 375px;
+    height: 100px;
+    background-color: brown;
+    position: fixed;
+    bottom:0px;
+    left: 0;
+    filter: blur(5%)
+}
+#click_a{
+    width: 40px;
+    height: 45px;
+    margin: 0;
+    position: absolute;
+    bottom:47px;
+    left:23px;
+    cursor: pointer;
+    background-image: url(prada.png);
+    background-size: 101%;
+}
+#click_b{
+    width: 40px;
+    height: 45px;
+    margin: 0;
+    position: absolute;
+    bottom:40px;
+    left:103px;
+    cursor: pointer;
+    background-image: url(jiedao.png);
+    background-size: 105%;
+}
+#click_c{
+    width: 40px;
+    height: 45px;
+    margin: 0;
+    position: absolute;
+    bottom:47px;
+    left:191px;
+    cursor: pointer;
+    background-image: url(shop.png);
+    background-size: 101%;
+}
+#click_d{
+    width: 60px;
+    height: 45px;
+    margin: 0;
+    position: absolute;
+    bottom:50px;
+    left:280px;
+    cursor: pointer;
+    background-image: url(money.png);
+    background-size: 120%;
+    background-position: 50%;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="jiedao">
+        <img src="shoping-list.jpg" alt="">
+    </div>
+    <div class="jiesuan">
+            <img src="jiesuan.png" alt="">
+        </div>
+    <div class="back">
+        <a href="./PA.html" id="back"></a>
+    </div>
+    <div class="picture">
+            <div class="a">
+                <a href="./PA.html" id="click_a"></a>
+        </div>
+            <div class="b">
+                <a href="./jiedao.html" id="click_b"></a>
+        </div>
+        <div class="c">
+            <a href="./shop.html" id="click_c"></a>
+        </div>
+        <div class="d">
+            <a href="./setting.html" id="click_d"></a>
+        </div>
+        </div>
+        </div>
+        <div class="bottom">
+            <input type="p" value="首页">
+            <input type="j" value="空间">
+            <input type="s" value="购物车">
+            <input type="m" value="我的账户">
+        </div>
+    </div>
+    <script>
+    document
+    .getElementById('back')
+    .addEventListener('click',function(event){
+
+    })
+    </script>
+</body>
+</html>
